@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sameer Mishra | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <nav>
-    <ul>
-      <li><a href="#intro">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <input type="checkbox" id="menu-toggle" />
+  <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+  <ul class="menu">
+    <li><a href="#intro">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
   </nav>
+
   <section class="intro" id="intro">
     <div class="container">
-      <img src="https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=612x612&w=0&k=20&c=jlYes8ZfnCmD0lLn-vKvzQoKXrWaEcVypHnB5MuO-g8=" alt="Sameer Mishra" class="profile-img">
+      <img src="https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=612x612&w=0&k=20&c=jlYes8ZfnCmD0lLn-vKvzQoKXrWaEcVypHnB5MuO-g8=" alt="Sameer Mishra" class="profile-img" />
       <h1>Hi, I'm <span>Sameer Mishra</span></h1>
       <p>Software Developer | SDE Trainee</p>
       <a href="assets/Sameer_Mishra_Resume.pdf" download class="btn-resume desktop-only">Download Resume</a>
     </div>
   </section>
+
   <section class="about" id="about">
     <div class="container">
       <h2>About Me</h2>
       <p>I am an aspiring software developer currently undergoing SDE training. I specialize in full-stack development and have worked on projects involving Java, Spring Boot, MySQL, HTML, CSS, and JavaScript.</p>
     </div>
   </section>
+
   <section class="projects" id="projects">
-    <div class="container project-wrapper">
+    <div class="container">
       <h2>My Projects</h2>
       <div class="project-grid">
         <div class="project">
@@ -52,6 +58,7 @@
       </div>
     </div>
   </section>
+
   <section class="contact" id="contact">
     <div class="container">
       <h2>Contact Me</h2>
@@ -60,6 +67,8 @@
       <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sameer-mishra" target="_blank">linkedin.com/in/sameer-mishra</a></p>
     </div>
   </section>
+
   <a href="#intro" class="back-to-top">↑</a>
 </body>
 </html>
+
